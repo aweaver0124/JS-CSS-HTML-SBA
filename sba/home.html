@@ -15,21 +15,6 @@
         <img src="..\resources\cocktail logo.jpg" height="120px" width="180px">
         <h1>Cocktail Review</h1>
     </header>
-    <div class="carousel-container">
-        <div class="carousel-slide">
-            <img src="..\resources\cocktail6.jpg" alt="cocktail 1" id="lastClone" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktailx.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktail 3.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktail2.webp" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktail4.webp" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktail5.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktail6.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
-            <img src="..\resources\cocktailx.jpg" alt="cocktail 1" id="firstClone" height="400px" width="600px" class="carousel-img">
-        </div>
-    </div>
-    <button id="prevButton">Previous</button>
-    <button id="nextButton">Next</button>
-
     <div id="landing-home-container">
         <div class="flexitem" id="login-signup-container">
             <h3>Login or Signup</h3>
@@ -44,20 +29,42 @@
                     <h4 class="input-heading">Password</h4>
                     <input class="login-signup-input" name="password" type="text" id="passwordId">
                     <br></br>
-                    <button type="submit" id="login-signup-button"> Submit </button>
+                    <div id="sub-button"><button type="submit" id="login-signup-button"> Submit </button></div>
                 </form>
             </div>
         </div>
         <div  class="flexitem" id="descriptive-container">
             <div id="description">
-                <h4>Welcome to Cocktail Review!</h4>
+                <h2>Welcome to Cocktail Review!</h2>
                 <p>This website allows users to browse different cocktail selections, vote for their favorites, and even submit their own drinks. Your cocktail can be a drink you tried at a local restaurant, a classic cocktail made at home, or something you invented from scratch. Submit it and see what other users think!</p>
-            </div>
-            <div id="homepage-img-container">
-                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cosmopolitan-1592951320.jpg" alt="cosmopolitan" height="290px" width="200px">
             </div>
         </div>
     </div>
+    <div id="browse">
+        <img src="../resources/left-arrow.jpg" height="60px" width="60px" id="prevButton" class="arrow">
+        <h2>Cocktail Gallery</h2>
+        <img src="../resources/right-arrow.png" height="60px" width="60px" id="nextButton" class="arrow">
+    </div>
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="..\resources\cocktail6.jpg" alt="cocktail 1" id="lastClone" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktailx.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktail 3.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktail2.webp" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktail4.webp" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktail5.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktail6.jpg" alt="cocktail 1" height="400px" width="600px" class="carousel-img">
+            <img src="..\resources\cocktailx.jpg" alt="cocktail 1" id="firstClone" height="400px" width="600px" class="carousel-img">
+        </div>
+    </div>
+    <footer>
+       <nav>
+            <a href="#">HTML</a> |
+            <a href="#">CSS</a> |
+            <a href="#">JavaScript</a> |
+            <a href="#">Python</a>
+       </nav>
+    </footer>
     <script src="./javascript/app.js"></script>
 </body>
 </html>

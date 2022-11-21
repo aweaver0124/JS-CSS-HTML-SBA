@@ -6,7 +6,7 @@ html, body {
 .header{
     display: flex;
     padding: 15px;
-    background-color: #ffa500;
+    background-color: rgb(255, 166, 0);
     width: auto;
 }
 
@@ -17,25 +17,26 @@ html, body {
 }
 
 #landing-home-container{
-
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
+    margin-top: 20px;
 }
+
 #login-signup-container{
     padding: 10px;
-   
 }
 
 #login-signup-container h3{
     font-size: 25px;
-    margin: 5px;
+    margin-top: 5px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .input-heading{
     margin: 5px;
+    font-size: 18px;
 }
 
 #form-cont{
@@ -59,11 +60,18 @@ html, body {
 }
 
 #descriptive-container{
+    text-align: center;
+    padding: 10px;
     display: flex;
-    padding: 20px;
 }
-#description{
-    width: 300px;
+
+#description p {
+    font-size: 22px;
+    line-height: 45px;
+}
+
+#description h2 {
+    margin-top: 5px;
 }
 
 .flexitem{
@@ -73,17 +81,18 @@ html, body {
     border-left: 3px solid black;
     box-shadow: 10px 5px 5px rgb(71, 68, 68);
     border-radius: 7px;
-    margin-left: 70px;
-    margin-right: 70px;
-    height: 400px;
-    width: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 330px;
+    width: 500px;
 }
 
 .carousel-container{
     width: 52%;
     margin: auto;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; 
+   position: relative;
 }
 
 .carousel-slide{
@@ -92,3 +101,23 @@ html, body {
     height: 400px;
 }
 
+#browse{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: rgb(255, 166, 0);
+    height: 45px;
+}
+
+#sub-button{
+    text-align: center;
+}
