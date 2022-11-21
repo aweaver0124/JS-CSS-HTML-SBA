@@ -17,9 +17,31 @@
             <a href="./recipes.html">Recipes</a>
         </nav>
     </header>
+    <div id="form-container">
+        <h3>Submit a Cocktail!</h3>
+        <form id="drink-submission">
+                <h4 class="input-heading">Cocktail Name</h4>
+                <input class="drink-input" name="name" type="text" id="nameId">
+                <br></br>
+                <h4 class="input-heading">Description</h4>
+                <input class="drink-input" name="description" type="text" id="descriptionId" maxlength="400">
+                <br></br>
+                <h4 class="input-heading">Image URL</h4>
+                <input class="drink-input" name="image" type="text" id="imageId">
+                <br></br>
+                <h4 class="input-heading">Location</h4>
+                <input class="drink-input" name="location" type="text" id="locationId">
+                <br></br>
+                <button type="submit" id="drink-button"> Submit </button>
+        </form>
+    </div>
+    <section id="your-cocktails">
+        <h2>Your Cocktails: </h2>
+    </section>
     
     <footer>
         <a href="./home.html"><h3>Cocktail Review</h3></a>
     </footer>
+    <script src="./javascript/app3.js"></script>
 </body>
 </html>
