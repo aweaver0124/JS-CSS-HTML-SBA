@@ -137,3 +137,16 @@ footer a h3:hover{
 #sub-button{
     text-align: center;
 }
+#cocktails-of-week{
+    text-align: center;
+}
+#recipes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cocktail-card{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 70px;
+}

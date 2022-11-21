@@ -41,3 +41,4 @@ carouselSlide.addEventListener('transitionend', function(){
         carouselSlide.style.transform = 'translateX(' + (-size * counter ) + 'px)';
     }
 } )
+
